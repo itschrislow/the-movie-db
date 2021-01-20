@@ -72,7 +72,7 @@ const MovieDetail = () => {
 
 const Badge = ({ genre }) => {
   return (
-    <button className="mr-2 rounded-xl py-1 px-2 border border-yellow-400">
+    <button className="cursor-default mr-2 rounded-xl py-1 px-2 border border-yellow-400 focus:outline-none">
       <p className="text-yellow-400 text-xs">{genre}</p>
     </button>
   )
